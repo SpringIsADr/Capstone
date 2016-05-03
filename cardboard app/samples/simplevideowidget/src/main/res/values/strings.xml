@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="button_AR">AR Vision</string>
+    <string name="button_Island">Island</string>
+    <string name="button_Game">Game</string>
+    <string name="button_AR_Player">AR Player</string>
+    <string name="button_Realtime">Real-time Display</string>
+  <string name="source">Source &lt;a href="https://en.wikipedia.org/wiki/Gorilla">Wikipedia&lt;/a></string>
+</resources>

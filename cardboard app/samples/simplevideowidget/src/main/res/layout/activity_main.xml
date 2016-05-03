@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_AR"
+        android:id="@+id/butn1"
+        android:onClick="directAR"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1" />
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/button_Game"
+        android:id="@+id/butn2"
+        android:onClick="directGame"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/button_AR_Player"
+        android:id="@+id/butn3"
+        android:onClick="directAR2"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/button_Realtime"
+        android:id="@+id/butn4"
+        android:onClick="directRealtime"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1" />
+
+</LinearLayout>
